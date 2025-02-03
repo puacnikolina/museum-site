@@ -1,0 +1,237 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+body{
+    background-color: #f7f6ec;
+    line-height: 1.5em;
+}
+
+h1{
+    font-family: 'Plush Trial', sans-serif;    
+}
+
+.main-menu{
+    width: 100%;
+    position: relative;
+    
+}
+
+#ozeum{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#ozeum:hover {
+    color: #ebe9cf;
+    background-color: #1e1e19;
+    height: auto;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    background-color: #1e1e19;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+
+.nav-bar ul li{
+    float: none;
+    display: inline-block; 
+}
+
+.nav-bar ul li:nth-child(1){
+    float: left;
+}
+.nav-bar ul li:nth-child(2){
+    float: left;
+}
+.nav-bar ul li:nth-child(3){
+    float: left;
+}
+
+.nav-bar ul li:nth-child(4){
+    float: left;
+}
+
+.nav-bar ul li:nth-child(5){
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.nav-bar ul li a {
+    font-family: 'Trebuchet MS',sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#ebe9cf;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 30px 30px;
+}
+
+.nav-bar ul li a:hover{
+    color: #c5a04e;
+    background-color: #13130d;
+    height: 200px;
+}
+
+.heading-area{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    margin-left: -150;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 725px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background-image: url(images/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+}
+
+.hero-info{
+    text-align: center;
+    color:#ebe9cf;
+}
+
+.hero-info a{
+    color: #2e2e26;
+    padding: 20px 50px;
+    border-radius: 25px;
+    background-color: #ebe9cf;
+}
+
+.hero-info a:hover{
+    color: #efede0;     
+    background-color: #13130d;
+    border-width: 30px;
+    
+}
+
+#info-button{
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Trebuchet MS',sans-serif;
+   letter-spacing: 1px;
+}
+
+#dates{
+    font-size: 20px;
+}
+
+#artist-name{
+    font-family: 'Plush Trial', sans-serif;
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 70px;   
+}
+
+/*for info links*/
+#info{
+   color: #2e2e26;
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Trebuchet MS',sans-serif;
+   letter-spacing: 1px;
+   
+}
+
+.welcome-section{
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    height: 700vp;
+    background-color: #efede0;
+    background-image: url(images/welcome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-text{
+    padding: 10%;
+    padding-bottom: 10%;
+}
+
+.welcome-message{
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 50px;                                     
+}
+
+.welcome-info{
+    line-height: 1.5;
+    word-spacing: 2px;
+    text-align: left;
+    font-size: 25px;
+    color: gray;
+}
+
+
+/*section - add to index*/
+.visitor-info{
+    background-color: #12130d;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    color: #efede0 ;
+    
+}
+
+
+.first-half {
+    width: 50%;
+    background-image: url('images/visitors.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+}
+
+.second-half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; 
+}
